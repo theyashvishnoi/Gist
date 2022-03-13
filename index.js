@@ -3,7 +3,7 @@ document.querySelector("a").addEventListener("click", function(){
     
     
     var countryCode = prompt("enter country code ");
-    var phoneNo = prompt("enter WhatsApp bumber ");
+    var phoneNo = prompt("enter WhatsApp number ");
 
 var attachment1 = "http://wa.me/+"+ countryCode + phoneNo;
 var link1 = document.querySelector("a");
