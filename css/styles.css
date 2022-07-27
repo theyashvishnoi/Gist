@@ -58,8 +58,14 @@ section{
     min-height: 100vh;
     padding:0rem;
 }
+h4{
+    margin-top: 3rem;
+    color:var(--black);
+    font-size: 1.75rem;
+    
+}
 
-.btn{
+.btnd{
     margin-top: 1rem;
     display: inline-block;
     padding:1rem 3.5rem;
@@ -71,7 +77,7 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-.btn:hover{
+.btnd:hover{
     box-shadow: var(--box-shadow-inset);
     color:var(--green);
 }
